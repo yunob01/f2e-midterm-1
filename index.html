@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <title>K-POP MUSIC CHART</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="music_show.html" class="nav-link">音樂節目</a>
+                    <ul class="nav-sublist">
+                        <li class="nav-subitem"><a href="music_show.html" class="nav-sublink">THE SHOW</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Show Champion</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">M Countdown</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Music Bank</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Show! 音樂中心</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">人氣歌謠</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="vote.html" class="nav-link">投票教學</a>
+                    <ul class="nav-sublist">
+                        <li class="nav-subitem"><a href="vote.html" class="nav-sublink">THE SHOW</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Show Champion</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">M Countdown</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Music Bank</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Show! 音樂中心</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">人氣歌謠</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="index.html" class="nav-link"><img src="img/麥克風🎤.PNG"></a></li>
+                <li class="nav-item">
+                    <a href="awards.html" class="nav-link">年末專區</a>
+                    <ul class="nav-sublist">
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Goilden Disc <br>Awards</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">Seoul Music <br>Awards</a></li>
+                        <li class="nav-subitem"><a href="#" class="nav-sublink">其他大獎</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="about_us.html" class="nav-link">關於我們</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="container">
+            <img src="img/背景.png" alt="background">
+            <div class="title">
+                <h1>K-POP MUSIC CHART</h1>
+            </div>
+        </section>
+        <div class="scroll">
+            <p>SCROLL</p>
+            <a href="#time"><img src="img/arrow.png"></a>
+        </div>
+    </header>
+
+
+    <div class="main-container" id="time">
+        <h1>音樂節目播出時間</h1>
+        <div class="list">
+            <div class="sub">
+                <img src="img/Group 31.png" alt="schedule">
+                <p>✦ 週一固定沒有音樂節目 (音放) 播出<br>✦ 台灣與韓國時差為一小時，韓國時間比台灣早一小時</p>
+            </div>
+        </div>
+        <h1>各臺音樂節目</h1>
+
+
+        <a href="https://www.youtube.com/@thekpop/featured">
+            <button class="right" id="right">
+                <p>THE SHOW</p>
+                <img src="img/THE SHOW LOGO.png" alt="theshow_logo">
+            </button>
+        </a>
+
+
+        <a href="https://www.youtube.com/@ALLTHEKPOP">
+            <button class="left" id="left">
+                <img src="img/Show Champion LOGO 1.png" alt="showchampion_logo">
+                <p>Show Champion</p>
+            </button>
+        </a>
+
+
+        <a href="https://www.youtube.com/@Mnet">
+            <button class="right" id="right">
+                <p>M Countdown</p>
+                <img src="img/M_Countdown_Logo.png" alt="mcountdown_logo">
+            </button>
+        </a>
+
+
+        <a href="https://www.youtube.com/@kbsworldtv">
+            <button class="left" id="left">
+                <img src="img/Music_Bank_2019_logo.png" alt="musicbank_logo">
+                <p>Music Bank</p>
+            </button>
+        </a>
+
+
+        <a href="https://www.youtube.com/@MBCkpop">
+            <button class="right right-core" id="right">
+                <p>Show! 音樂中心</p>
+                <img src="img/Show 音樂中心 LOGO.png" alt="musiccore_logo">
+            </button>
+        </a>
+
+
+        <a href="https://www.youtube.com/@SBSKPOP">
+            <button class="left" id="left">
+                <img src="img/人氣歌謠 LOGO.webp" alt="inkigayo_logo">
+                <p>人氣歌謠</p>
+            </button>
+        </a>
+    </div>
+
+
+    <footer>
+        <div class="social">
+            <a href="#"><img src="img/3709561_ig_instagram_instagram icon_social media_icon.png"></a>
+            <a href="#"><img src="img/3709569_facebook_facebook icon_social media_icon.png"></a>
+            <a href="#"><img src="img/3709563_social media_youtube_youtube icon_icon.png"></a>
+        </div>
+        <p>Copyright © YUNOB ｜ BLACKBEAR</p>
+    </footer>
+</body>
+
+</html>
